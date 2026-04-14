@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Welcome to github</h1>
+    <p>Steps to setup github</p>
+    <ol>
+        <li>install git and create a github account</li>
+
+        <li>configure your name and email in the git terminal (that is used in the commit metadata) <br>
+        git config --global user.name "your name"<br>
+        git config --global user.email "your email"
+        </li>
+        <li>
+            <h2>To track and commit changes</h2>
+            <ul>
+                <li>to check status - git status</li>
+                <li>stage files -> add to staging area</li>
+                <pre>
+    git add file_name //for a specific file
+    git add . //for the whole current directory
+
+                </pre>
+                <li>for committing staged changes </li>
+                <pre>
+            git commit -m "initial commit"
+                </pre>
+
+            </ul>
+        </li>
+        <li>Add remote origin that will help git navigate the cloud repo</li>
+        <pre>
+            git remote add origin https://github.com/vishoov/example_project.git
+        </pre>
+    </ol>
+</body>
+</html>
